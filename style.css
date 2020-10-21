@@ -47,13 +47,17 @@ body
 }
 .social-media img
 {
-    height: 30px;
-    margin-right: 15px;
+     width: 40px;
+    margin: -15px 10px;
 }
 .social-media
 {
     margin-top: 20px;
     margin-left: 15px;
+}
+.social-media span
+{
+    margin: 3%; 
 }
 .expertise img
 {
@@ -100,12 +104,19 @@ body
 }
 .submit-button
 {
+    text-decoration: none;
     border: 0;
     outline: none !important;
     padding: 10px 20px;
     margin: 2%;
-    background:  #2ab0ff;
+    background:  black;
     cursor: pointer;
+    color: white;  
+}
+.submit-button:hover
+{
+    
+    background: #8B0000 ;
     color: white;
 }
 .contact img
@@ -117,21 +128,23 @@ body
 {
     margin: 3%;
 }
-.contacy
+.contact
 {
     margin: 5% 0 5% 25%;
     width: 65%;
 }
 @media only screen and (max-width:900px)
 {
+     .profile-img
+    {
+        width: :100%;
+        
+    }
     .profile-info
     {
         width: 100% ;
         overflow: inherit;
     }
-    .profile-img
-    {
-        width: :100%;
-    }
+   
     
 }
